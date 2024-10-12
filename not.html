@@ -1,0 +1,56 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+    <div class="max-w-md mx-auto bg-white h-screen">
+        <!-- Header -->
+        <div class="p-4 border-b border-gray-200">
+            <h1 class="text-xl font-bold">Notifications</h1>
+            <div class="flex space-x-2 mt-2">
+                <button class="px-3 py-1 bg-gray-200 rounded-full text-sm">Inbox <i class="fas fa-chevron-down"></i></button>
+                <button class="px-3 py-1 bg-gray-200 rounded-full text-sm">Focused</button>
+                <button class="px-3 py-1 bg-gray-200 rounded-full text-sm">Unread</button>
+                <button class="px-3 py-1 bg-gray-200 rounded-full text-sm">Reposts</button>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="flex flex-col items-center justify-center mt-16">
+            <div class="relative">
+                <div class="bg-red-500 text-white p-4 rounded-full">
+                    <i class="fas fa-bell text-4xl"></i>
+                </div>
+                <div class="absolute top-0 right-0 bg-blue-500 text-white text-xs rounded-full px-1">NEW</div>
+            </div>
+            <h2 class=" text-center text-xl font-bold mt-4">Customize your notification experience</h2>
+            <p class="text-center text-gray-600 mt-2 px-4">Set up push notifications, working hours, and customize swipe options.</p>
+            <button class=" text-center mt-6 bg-blue-100 text-blue-700 px-4 py-2 rounded-full">CUSTOMIZE YOUR EXPERIENCE</button>
+            <button class="mt-4 text-gray-700">LATER</button>
+        </div>
+        
+        <!-- Footer -->
+        <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200">
+            <div class="flex justify-around py-2">
+                <div class="flex flex-col items-center">
+                   <a href="index.html" <i class="fas fa-home text-xl text-gray-500"></i></a>
+                    <span class="text-xs text-gray-500">Home</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-bell text-xl text-blue-700"></i>
+                    <span class="text-xs text-blue-700">Notifications</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-search text-xl text-gray-500"></i>
+                    <a href="explore.html"<span class="text-xs text-gray-500">Explore</span></a>
+                </div>
+                <div class="flex flex-col items-center">
+                   <a href="profile.html" <i class="fas fa-user text-xl text-gray-500"></i></a>
+                    <span class="text-xs text-gray-500">Profile</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
